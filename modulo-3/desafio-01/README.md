@@ -1,4 +1,6 @@
-# 💻 Sobre o desafio
+# Desafio 01 - Criando um projeto do zero
+
+## 💻 Sobre o desafio
 
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 
@@ -76,7 +78,7 @@ Nesse arquivo você deve implementar toda a estilização da página de post.
 
 ### components/Header/index.tsx
 
-Nesse arquivo você deve renderizar a logo `spacetraveling`. 
+Nesse arquivo você deve renderizar a logo `spacetraveling`.
 
 Ela deve ser exportada do Figma e salva na pasta `public` na raiz do seu projeto para a correta utilização. Além disso, a logo deve ter o `alt` com o valor `logo` para que o teste possa encontrá-la corretamente.
 

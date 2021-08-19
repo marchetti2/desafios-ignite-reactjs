@@ -1,4 +1,6 @@
-# 💻 Sobre o desafio
+# Desafio 01 - Interface com Chakra UI
+
+## 💻 Sobre o desafio
 
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 
@@ -10,7 +12,7 @@ A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
 
 # Se preparando para o desafio
 
-Para esse desafio, iremos reforçar alguns pontos e apresentar algumas libs para te ajudar no desevolvimento. 
+Para esse desafio, iremos reforçar alguns pontos e apresentar algumas libs para te ajudar no desevolvimento.
 
 Dessa forma, antes de ir diretamente para o código do desafio, explicaremos um pouquinho de:
 
@@ -30,7 +32,7 @@ Para utilizar o Figma, não possui muito mistério. Vamos deixar abaixo os passo
 
 ### Criando uma conta no Figma
 
-Para acessar o Layout da aplicação, você primeiramente deve ter uma conta criada na plataforma do Figma, para isso, você pode [clicar aqui](https://www.figma.com/signup). 
+Para acessar o Layout da aplicação, você primeiramente deve ter uma conta criada na plataforma do Figma, para isso, você pode [clicar aqui](https://www.figma.com/signup).
 
 Então, na página de cadastro, você pode logar diretamente com sua conta do Google ou criar uma conta com o e-mail que você preferir.
 

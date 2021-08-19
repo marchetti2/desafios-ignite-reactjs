@@ -1,10 +1,12 @@
-# 💻 Sobre o desafio
+# Desafio 02 - Adicionando features ao blog
+
+## 💻 Sobre o desafio
 
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 
 Essa será uma aplicação onde o seu principal objetivo é adicionar features a um projeto já existente. Utilizaremos como base a solução desenvolvida por você do desafio obrigatório:
 
-[Desafio 01 - Criando um projeto do zero](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7) 
+[Desafio 01 - Criando um projeto do zero](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7)
 
 Você deve implementar no projeto as seguintes features:
 
@@ -19,7 +21,7 @@ A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
 
 Você vai utilizar o mesmo template do desafio:
 
-[Desafio 01 - Criando um projeto do zero](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7) 
+[Desafio 01 - Criando um projeto do zero](https://www.notion.so/Desafio-01-Criando-um-projeto-do-zero-b1a3645d286b4eec93f5f1f5476d0ff7)
 
 Porém dessa vez irá se basear na página `Complementar`
 
@@ -119,7 +121,7 @@ Como essa funcionalidade vai precisar que façamos vários passos, vamos entende
     	      ref: previewData?.ref ?? null,
     	    }
     	  );
-    	
+
     	return {
     		props: {
     			...,
@@ -133,7 +135,7 @@ Com essas configurações, seu modo de Preview deve funcionar de acordo com o es
 
 ## Navegação entre post anterior e próximo
 
-Você deve renderizar na página `post/[slug].tsx` links com a informação do título do post que, quando clicados, devem realizar a navegação até o post selecionado. 
+Você deve renderizar na página `post/[slug].tsx` links com a informação do título do post que, quando clicados, devem realizar a navegação até o post selecionado.
 
 É necessário ter um link para o post diretamente mais antigo que o da página atual e um link para post diretamente mais recente que o da página atual (ou seja, os posts "vizinhos").
 

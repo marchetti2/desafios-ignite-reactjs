@@ -1,4 +1,6 @@
-# 💻 Sobre o desafio
+# Desafio 01 - Criando um hook de carrinho de compras
+
+## 💻 Sobre o desafio
 
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 

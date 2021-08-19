@@ -1,4 +1,6 @@
-# 💻 Sobre o desafio
+# Desafio 02 - Upload de imagens
+
+## 💻 Sobre o desafio
 
 Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
 
@@ -127,7 +129,7 @@ Esse arquivo, por ser a única página do seu app, é o responsável direto ou i
 
 A primeira coisa a se fazer é utilizar corretamente a Infinite Query. Portanto, no `useInfiniteQuery` você precisa montar duas seções principais:
 
-1. Uma função que recebe como parâmetro um objeto que contêm a propriedade `pageParam` (caso o parâmetro não exista, utilize como `default` o valor `null`). Esse parâmetro é utilizado no momento da requisição para chamarmos uma próxima página. 
+1. Uma função que recebe como parâmetro um objeto que contêm a propriedade `pageParam` (caso o parâmetro não exista, utilize como `default` o valor `null`). Esse parâmetro é utilizado no momento da requisição para chamarmos uma próxima página.
 Já no corpo da função, você deve realizar uma requisição GET para a rota `/api/images` da API do Next.js informando como um `query param` de nome `after` o valor do `pageParam` e retornar os dados recebidos.
 2. Uma função chamada `getNextPageParam` que recebe como parâmetro o resultado da última requisição. Se o valor `after` retornado na última requisição existir, então você deve retornar esse valor, caso contrário retorne `null`.
 
@@ -263,7 +265,7 @@ Ao clicar no card, é preciso abrir a modal `ViewImage.tsx`. Utilize a prop `vie
 
 Nesse modal serão exibidos uma imagem e o link.
 
-Essa imagem deve ter como largura máxima `900px` e como altura máxima `600px`, mantendo a proporção da imagem dependendo de qual dessas duas medidas chegar no valor máximo primeiro. 
+Essa imagem deve ter como largura máxima `900px` e como altura máxima `600px`, mantendo a proporção da imagem dependendo de qual dessas duas medidas chegar no valor máximo primeiro.
 
 Por exemplo, um wallpaper de celular tem a altura muito maior que a largura, já um wallpaper de um monitor widescreen tem a largura muito maior que a altura. Portanto, um exemplo prático desse dois casos seria os prints abaixo:
 
@@ -305,7 +307,7 @@ Agora que você possui as validações criadas, é hora de registrar os seus inp
 - Uma propriedade `register` que possui o nome do seu input como o primeiro parâmetro e a validação desse input como segundo parâmetro.
 - Uma propriedade `error` na qual você deve mandar o erro referente ao seu input. Utilize o `errors` obtido na desestruturação do `formState`.
 
-Outro etapa que precisa ser implementada nesse arquivo é a `mutation` do React Query. Essa `mutation` será responsável pelo cadastro da nova imagem no FaunaDB. Portanto, como primeiro argumento do `useMutation`, você deve implementar uma função que recebe como parâmetro os dados do formulário e no seu corpo realizar uma requisição POST para a rota `api/images` enviando os dados recebidos. 
+Outro etapa que precisa ser implementada nesse arquivo é a `mutation` do React Query. Essa `mutation` será responsável pelo cadastro da nova imagem no FaunaDB. Portanto, como primeiro argumento do `useMutation`, você deve implementar uma função que recebe como parâmetro os dados do formulário e no seu corpo realizar uma requisição POST para a rota `api/images` enviando os dados recebidos.
 Já como segundo parâmetro, você irá utilizar a propriedade `onSuccess` da `mutation` para que, caso ela ocorra com sucesso, invalidade a `query` que listou as imagens, forçando o React Query a atualizar esses dados. Para isso, trabalhe com o método `invalidateQueries`.
 
 Caso tenha dúvidas de como trabalhar com essa propriedade, dê uma olhada [nesse trecho](https://react-query.tanstack.com/guides/mutations) e [também nesse trecho](https://react-query.tanstack.com/guides/invalidations-from-mutations) da doc oficial
