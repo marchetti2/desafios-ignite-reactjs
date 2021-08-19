@@ -1,0 +1,64 @@
+.banner {
+  width: 100%;
+}
+
+.article {
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.625rem;
+
+    letter-spacing: -0.5px;
+    color: var(--heading);
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.56rem;
+
+      p {
+        font-size: 0.875rem;
+        line-height: 1.06rem;
+        font-weight: 400;
+        color: var(--info);
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  section {
+    margin-top: 4rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 140%;
+      text-align: justify;
+      color: var(--heading);
+      margin-bottom: 3.43rem;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: column;
+
+      p,
+      li {
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 140%;
+        text-align: justify;
+        color: var(--body);
+        margin-bottom: 3.43rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.banner {
+  width: 100%;
+}
+
+.article {
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    margin-bottom: 1.5rem;
+
+    letter-spacing: -0.5px;
+    color: var(--heading);
+  }
+
+  .changed {
+    margin-top: 1rem;
+
+    p {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.06rem;
+      color: var(--info);
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1.56rem;
+
+      p {
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.06rem;
+        color: var(--info);
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  section {
+    margin-top: 4rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.25rem;
+      line-height: 140%;
+      text-align: justify;
+      color: var(--heading);
+      margin-bottom: 3.43rem;
+    }
+
+    .body {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.43rem;
+
+      p,
+      li {
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 140%;
+        text-align: justify;
+        color: var(--body);
+      }
+
+      li {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+.navigation {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  span {
+    h1 {
+      font-weight: 400;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+      letter-spacing: -0.5px;
+      color: var(--heading);
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.187rem;
+      letter-spacing: -0.5px;
+      color: var(--highlight);
+    }
+  }
+
+  & > span:first-child {
+    text-align: left;
+  }
+
+  & > span:last-child {
+    text-align: right;
+  }
+}
